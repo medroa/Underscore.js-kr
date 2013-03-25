@@ -2,7 +2,7 @@
 
 ##번역참가자
 
-Seung-Hyun PAEK([tipJS](http://tipjs.com "tipJS"))
+Seung-Hyun PAEK([tipJS.com](http://tipjs.com "tipJS.com"))
 
 ##라이센스
 
