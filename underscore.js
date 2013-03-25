@@ -54,7 +54,6 @@
   // ** Node.js **용으로 오래된`require ()`API에 대한 호환성을 갖게하고, Undesrscore object를
   // export 한다. 브라우저라면 Closure Compiler의 Advanced 모드를 위해 문자 식별자를
   // 사용하고 글로벌 object 로 `_`을 추가한다.
-
   // Closure Compiler의 "advanced"모드를 위해
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
