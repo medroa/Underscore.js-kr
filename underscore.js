@@ -809,7 +809,7 @@
   // `isEqual`을 위한 내부 재귀 비교 함수.
   var eq = function(a, b, aStack, bStack) {
     // 동일한 개체는 동일하게 된다. 그러나`0 === -0`는 같지 않다.
-    // Harmonyの`egal`제안을 참조: http://wiki.ecmascript.org/doku.php?id=harmony:egal
+    // Harmony의 `egal`제안을 참조: http://wiki.ecmascript.org/doku.php?id=harmony:egal
     if (a === b) return a !== 0 || 1 / a == 1 / b;
     // `null == undefined`이기 때문에 엄밀한 비교를 필요로한다.
     if (a == null || b == null) return a === b;
@@ -1159,7 +1159,7 @@
   // 래핑 된 개체를 반환한다. 이 랩퍼는 Underscore 모든 함수의
   // 대체 버전을 갖추고있다. 래핑 된 객체는 체인가능하다.
 
-  // 중간 결과를 계속 체이닝 하는 도우미 함수.
+  // 중간 결과를 계속 체이닝 하는 헬퍼함수.
   var result = function(obj) {
     return this._chain ? _(obj).chain() : obj;
   };
